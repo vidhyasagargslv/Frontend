@@ -1,0 +1,20 @@
+
+
+.background{
+  width: 100dvw;
+height: 100dvh;
+flex-shrink: 0;
+background: url(/src/Pages/bg.png), #d3d3d3 0px -48px / 100% 159.556% no-repeat;
+background-repeat: none;
+background-position: center;
+background-size: cover;
+overflow :hidden;
+
+
+backdrop-filter: blur(2px);
+}
+.LabelText{
+  margin:0 40px;
+  width:100%;
+  border:2px solid orange;
+}
